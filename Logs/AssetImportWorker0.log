@@ -1,0 +1,877 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'zh' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ariel/Work/F412_C/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53313
+Successfully changed project path to: C:/Users/Ariel/Work/F412_C/New Unity Project
+C:/Users/Ariel/Work/F412_C/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 65.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ariel/Work/F412_C/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003021 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (467ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (334ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (56.8 KB). Loaded Objects now: 3783.
+Memory consumption went from 117.9 MB to 117.9 MB.
+Total: 2.698100 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.115800 ms MarkObjects: 2.294500 ms  DeleteObjects: 0.061100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31618.099024 seconds.
+  path: Assets/Scenes/P11Scene.unity
+  artifactKey: Guid(8d7c02ee44aa7f3489f82132840370d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/P11Scene.unity using Guid(8d7c02ee44aa7f3489f82132840370d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfdcd0a7e9eb3ff9c538d5c62551803') in 0.010737 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (25.3 KB). Loaded Objects now: 3786.
+Memory consumption went from 116.4 MB to 116.4 MB.
+Total: 4.738900 ms (FindLiveObjects: 0.789300 ms CreateObjectMapping: 0.269100 ms MarkObjects: 3.651200 ms  DeleteObjects: 0.028400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (25.2 KB). Loaded Objects now: 3789.
+Memory consumption went from 116.4 MB to 116.4 MB.
+Total: 2.508200 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.176500 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (22.5 KB). Loaded Objects now: 3789.
+Memory consumption went from 50.9 MB to 50.9 MB.
+Total: 2.910100 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.152000 ms MarkObjects: 2.459000 ms  DeleteObjects: 0.013700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (22.5 KB). Loaded Objects now: 3789.
+Memory consumption went from 50.9 MB to 50.9 MB.
+Total: 4.024100 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.120800 ms MarkObjects: 3.672600 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (26.3 KB). Loaded Objects now: 3792.
+Memory consumption went from 116.4 MB to 116.4 MB.
+Total: 2.641400 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.345000 ms  DeleteObjects: 0.021800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2612.929540 seconds.
+  path: Assets/Texture/P11/俯視/上0001.png
+  artifactKey: Guid(dda60389430ae584d9d9def9ddfeb89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0001.png using Guid(dda60389430ae584d9d9def9ddfeb89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd216f1896590f838b2986bdf0f056439') in 0.289677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture/P11/俯視/上0018.png
+  artifactKey: Guid(348180a6159e39a44b049b052d02c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0018.png using Guid(348180a6159e39a44b049b052d02c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47c20f46fc4e36ff19d3e0bb2dc77bf') in 0.173442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/俯視/上0010.png
+  artifactKey: Guid(db38ff3daffcc4d419d807c0e03862d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0010.png using Guid(db38ff3daffcc4d419d807c0e03862d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0647dcb79daeefa242674838d66a820e') in 0.175167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Texture/P11/俯視/上0004.png
+  artifactKey: Guid(dfe47331aa5fed0438ee6e5787e71075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0004.png using Guid(dfe47331aa5fed0438ee6e5787e71075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83b294d6ba9e515070f3be1328e41d5') in 0.169263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture/P11/俯視/上0012.png
+  artifactKey: Guid(d5399145f3d98ea469bc8290b4df1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0012.png using Guid(d5399145f3d98ea469bc8290b4df1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673d38e59bfb17c94b03b2027a3f7fdb') in 0.168627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Texture/P11/俯視/上0008.png
+  artifactKey: Guid(47d930657dc5b9240a986c42db37ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0008.png using Guid(47d930657dc5b9240a986c42db37ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c3d4d6f586410f2018d1f24162e09') in 0.159096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/俯視/上0013.png
+  artifactKey: Guid(81d332f5d2012d24bb17e4f24364146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0013.png using Guid(81d332f5d2012d24bb17e4f24364146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba70725169433bd7dd4b5a3b856af344') in 0.164303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture/P11/俯視/上0011.png
+  artifactKey: Guid(f5a56664b28cadd469c4e202985e1392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0011.png using Guid(f5a56664b28cadd469c4e202985e1392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31968e1db977062150ee43a5c92d4c0') in 0.162256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture/P11/俯視/上0015.png
+  artifactKey: Guid(7945d4951b8c58547b48399d853c48f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0015.png using Guid(7945d4951b8c58547b48399d853c48f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60db73fb63d7d7fb864ac63197047711') in 0.161689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture/P11/俯視/上0003.png
+  artifactKey: Guid(2b256f79488912a42b7a2c50a2e070d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0003.png using Guid(2b256f79488912a42b7a2c50a2e070d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cd0ff72f274ee9157aecf6582c77b5') in 0.173490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/俯視/上0009.png
+  artifactKey: Guid(5fb4041eb56a67a4daf3005feae2f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0009.png using Guid(5fb4041eb56a67a4daf3005feae2f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3d26ea6e4df19fcdc81cddb0277c72') in 0.158419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/P11/俯視/上0020.png
+  artifactKey: Guid(8427b9ce66b0d7148981eb382e64e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0020.png using Guid(8427b9ce66b0d7148981eb382e64e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cdb219e36da0d31d81a63b7adbc164') in 0.161293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.022712 seconds.
+  path: Assets/Texture/P11/俯視/上0025.png
+  artifactKey: Guid(c1fb0d6302e503c40954bbf5b0935f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0025.png using Guid(c1fb0d6302e503c40954bbf5b0935f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b03f08d56c6423eb73603809c6ee84b') in 0.163405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture/P11/俯視/上0029.png
+  artifactKey: Guid(ddff332cb302ad44fb66b7974f21ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0029.png using Guid(ddff332cb302ad44fb66b7974f21ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ee95e7740a8dd529e7bfe92e7b2087') in 0.163752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090413 seconds.
+  path: Assets/Texture/P11/俯視/上0030.png
+  artifactKey: Guid(1d54f60632d6e9e48948af3b11ab84a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0030.png using Guid(1d54f60632d6e9e48948af3b11ab84a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc424d020fad388549a9788e432baa8') in 0.166938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Texture/P11/俯視/上0033.png
+  artifactKey: Guid(4be93ce7e558b84449ad7864a6d78f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0033.png using Guid(4be93ce7e558b84449ad7864a6d78f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d29dc910d56791edbb469345536519') in 0.157599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/俯視/上0035.png
+  artifactKey: Guid(d5fcc91e62462a0448699dfdee46703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0035.png using Guid(d5fcc91e62462a0448699dfdee46703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7f8c16592512a38f8a78c67734fd45') in 0.154018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275966 seconds.
+  path: Assets/Texture/P11/俯視/上0039.png
+  artifactKey: Guid(cb579f4e89c66714fb7980bab744cebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/俯視/上0039.png using Guid(cb579f4e89c66714fb7980bab744cebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adb1ea742fb0ba951b670fb4139f874') in 0.151589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.562632 seconds.
+  path: Assets/Texture/P11/前/前0012.png
+  artifactKey: Guid(581f80b498f5e2f4e9dd685c9692acf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0012.png using Guid(581f80b498f5e2f4e9dd685c9692acf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242def9e3dc14137db3013e6663c1ec3') in 0.158796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture/P11/前/前0015.png
+  artifactKey: Guid(5c6a4d94be0f96e499b66d916e7bf083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0015.png using Guid(5c6a4d94be0f96e499b66d916e7bf083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f874013d25dcff42b59cbef72327b4') in 0.143459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/前/前0024.png
+  artifactKey: Guid(10d6e9fb520276346887bc96a66137e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0024.png using Guid(10d6e9fb520276346887bc96a66137e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b061ca5ff14f1b0480e100bc0a4b811c') in 0.136508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture/P11/前/前0018.png
+  artifactKey: Guid(fcac701b0dd34444ca9bf23dfbe2032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0018.png using Guid(fcac701b0dd34444ca9bf23dfbe2032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aab1982679446450195245a5eab6ab7') in 0.118973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/前/前0026.png
+  artifactKey: Guid(7eb4c02ce6fa10e49963d3f9e304c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0026.png using Guid(7eb4c02ce6fa10e49963d3f9e304c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd980da8ef47ab7c1011861b30bd02f8') in 0.118087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Texture/P11/前/前0016.png
+  artifactKey: Guid(fc44be99570d62d4b845c585b1bbd071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0016.png using Guid(fc44be99570d62d4b845c585b1bbd071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff32eb9ce2cdc078e745f1c7244f455') in 0.116370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819887 seconds.
+  path: Assets/Texture/P11/前/前0010.png
+  artifactKey: Guid(31f8355e25a31bc45b3e89652f8d5ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0010.png using Guid(31f8355e25a31bc45b3e89652f8d5ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8323f39601c889923a1f1dc0f2916dd') in 0.120465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture/P11/前/前0004.png
+  artifactKey: Guid(ac6e885c2e2a0c94bb12de8e012ecf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0004.png using Guid(ac6e885c2e2a0c94bb12de8e012ecf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20a74bd1d3b11bbf8762dec2be13914') in 0.132533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/前/前0005.png
+  artifactKey: Guid(de70b6cc14e45f643b47d261c63f49f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0005.png using Guid(de70b6cc14e45f643b47d261c63f49f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91271ca619028b8725033b62f474623') in 0.118974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/前/前0002.png
+  artifactKey: Guid(dd41850d40e74564e96d99e3a9c45355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/前/前0002.png using Guid(dd41850d40e74564e96d99e3a9c45355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b477217a81e1a4ca5fc787933aa2db3') in 0.119985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.016357 seconds.
+  path: Assets/Texture/P11/右/右0012.png
+  artifactKey: Guid(98ea110d252c28d4fbf43d8b442db494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0012.png using Guid(98ea110d252c28d4fbf43d8b442db494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ebe1c725b07d12f38dc285604f1411') in 0.147523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Texture/P11/右/右0025.png
+  artifactKey: Guid(d7b30f999163b86409f0ea6fbff48cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0025.png using Guid(d7b30f999163b86409f0ea6fbff48cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40762319bbda02cfa4ee140554597f0a') in 0.138798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture/P11/右/右0015.png
+  artifactKey: Guid(1b332bf414fd87e4f808a8939c2f3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0015.png using Guid(1b332bf414fd87e4f808a8939c2f3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425a73cbb586f00572ca2745f25ab64c') in 0.167255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/右/右0019.png
+  artifactKey: Guid(1d6710c1143e925469a4904944ad24df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0019.png using Guid(1d6710c1143e925469a4904944ad24df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8fe6c7f8348a31a082a70f4231645b') in 0.153423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/P11/右/右0021.png
+  artifactKey: Guid(b4dcd4c0fac7ea74ea44f53cb84761f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0021.png using Guid(b4dcd4c0fac7ea74ea44f53cb84761f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd66f65547c3ebc368ace7aba588561') in 0.133972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/右/右0020.png
+  artifactKey: Guid(818e6175b24fcc3468e2a562905023fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0020.png using Guid(818e6175b24fcc3468e2a562905023fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c30dd45991a38b2bac0eef6f9a6c3cd') in 0.153580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture/P11/右/右0022.png
+  artifactKey: Guid(5fe0b0afcb180af4cafd4c3dc4d3aa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0022.png using Guid(5fe0b0afcb180af4cafd4c3dc4d3aa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a7243441044228ecd4e095584e645c') in 0.124642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture/P11/右/右0029.png
+  artifactKey: Guid(c02d7723d66a6a040904f93c1380c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/右/右0029.png using Guid(c02d7723d66a6a040904f93c1380c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11106a23a0e2d5b88b0731267370b796') in 0.115782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.973198 seconds.
+  path: Assets/Texture/P11/後/後0012.png
+  artifactKey: Guid(80cb2113225c5fc4f85b9b130133900d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0012.png using Guid(80cb2113225c5fc4f85b9b130133900d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68c1311a6e7449684dc705402975ddf') in 0.127041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/後/後0032.png
+  artifactKey: Guid(c300e0bdac09704429bc057ea95984eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0032.png using Guid(c300e0bdac09704429bc057ea95984eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0f12ad5cc7b9d0d9ece18176c12709') in 0.130920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Texture/P11/後/後0014.png
+  artifactKey: Guid(f782a42c483ab3148ab042a418ca73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0014.png using Guid(f782a42c483ab3148ab042a418ca73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca735fc5406e772d7dc7194357a44c92') in 0.136328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture/P11/後/後0026.png
+  artifactKey: Guid(0bf6c07fc26c1a0479f3964b2606cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0026.png using Guid(0bf6c07fc26c1a0479f3964b2606cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c4bdb649765b94765397aa221c5342') in 0.125668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/後/後0019.png
+  artifactKey: Guid(34ad2d29d6dcbb640805ac9fcc4b4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0019.png using Guid(34ad2d29d6dcbb640805ac9fcc4b4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5438b048fe7ae5ff69c804bb71186f5') in 0.178583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/後/後0027.png
+  artifactKey: Guid(ff8d84605214f4349adecb75e7664953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0027.png using Guid(ff8d84605214f4349adecb75e7664953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e93506f6488464c5b15da687930ce1') in 0.136865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture/P11/後/後0031.png
+  artifactKey: Guid(8d4ac12567947754ebea26e97b20eb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0031.png using Guid(8d4ac12567947754ebea26e97b20eb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e0a8513a0527802ee1f34d4c81e4de') in 0.124056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.908746 seconds.
+  path: Assets/Texture/P11/後/後0035.png
+  artifactKey: Guid(1dab916aff2504d4fb5d78e313bb4b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0035.png using Guid(1dab916aff2504d4fb5d78e313bb4b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5edae9e53a402a27d6300fe791199') in 0.127830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture/P11/後/後0041.png
+  artifactKey: Guid(1ec89e94347d0e14b9f3cfc163fbcb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0041.png using Guid(1ec89e94347d0e14b9f3cfc163fbcb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c605b38fc100053b02864bedf14a04') in 0.114533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/P11/後/後0037.png
+  artifactKey: Guid(e7639a9455b20954c8f2ef51c21a80ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0037.png using Guid(e7639a9455b20954c8f2ef51c21a80ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef76f863281f52540f4f014ff1c432f') in 0.126012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.544813 seconds.
+  path: Assets/Texture/P11/後/後0010.png
+  artifactKey: Guid(7d07f2e491bf9ba41a256f7893fdc4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0010.png using Guid(7d07f2e491bf9ba41a256f7893fdc4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f472c06d040635cbcd6d18b997c63fb') in 0.139779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture/P11/後/後0006.png
+  artifactKey: Guid(2b2be64561023a34486f81a00f5235ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0006.png using Guid(2b2be64561023a34486f81a00f5235ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4509d834de950c926d92dec7cea2d7fa') in 0.133350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/後/後0005.png
+  artifactKey: Guid(b2718ab5136756446a907bb06f2cda42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0005.png using Guid(b2718ab5136756446a907bb06f2cda42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ea52cd665b206ed0ae8e4f65c1c34d') in 0.132978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture/P11/後/後0002.png
+  artifactKey: Guid(abe64e87ebf72a541974f4e4770aa77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0002.png using Guid(abe64e87ebf72a541974f4e4770aa77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94615e2a8b86d20e95dc1cd3b9165b56') in 0.116776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.359162 seconds.
+  path: Assets/Texture/P11/後/後0043.png
+  artifactKey: Guid(13b7f24ecc35b85449bf445e4bf2d863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0043.png using Guid(13b7f24ecc35b85449bf445e4bf2d863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ed0d4c849f93eec2a65699da23d763') in 0.143495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083927 seconds.
+  path: Assets/Texture/P11/後/後0045.png
+  artifactKey: Guid(d2e8d0fb2df185541a1f950622177b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0045.png using Guid(d2e8d0fb2df185541a1f950622177b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cd1e93c3f7a34c4bb75902c91b8eb0') in 0.165574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture/P11/後/後0049.png
+  artifactKey: Guid(c77489474e644d64ab98b27894dcf0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0049.png using Guid(c77489474e644d64ab98b27894dcf0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a859896253bdcc854a2721aed61dff1d') in 0.146675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068840 seconds.
+  path: Assets/Texture/P11/後/後0052.png
+  artifactKey: Guid(eba87a145493c4045938109a5be5ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0052.png using Guid(eba87a145493c4045938109a5be5ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75fb5eac367224013670dd550c170b6') in 0.131780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture/P11/後/後0054.png
+  artifactKey: Guid(fe51e44c97cf88742a3099e0df22172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0054.png using Guid(fe51e44c97cf88742a3099e0df22172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece491940ce35b24167d0824969fa8f8') in 0.107571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/後/後0053.png
+  artifactKey: Guid(c953cc2b116ab83499b229a67863fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/後/後0053.png using Guid(c953cc2b116ab83499b229a67863fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf4a0e0913cdc66b91698bf4cd6a1b2') in 0.105739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.098886 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0040.png
+  artifactKey: Guid(992eb08679651e247b04452c5385d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0040.png using Guid(992eb08679651e247b04452c5385d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3730c6335afec0fd24079698db7df892') in 0.135761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0061.png
+  artifactKey: Guid(d0fa7742985a2de429d9a6ef8441f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0061.png using Guid(d0fa7742985a2de429d9a6ef8441f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618f9c754bbfa4366c1d827d6711cce4') in 0.132603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0050.png
+  artifactKey: Guid(9e4493ce82b9c4b4194480ed0fcec69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0050.png using Guid(9e4493ce82b9c4b4194480ed0fcec69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168dabb38de4e14a91c3896d647526a3') in 0.145656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0055.png
+  artifactKey: Guid(24a8e4119ae71024b852e6e4769fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0055.png using Guid(24a8e4119ae71024b852e6e4769fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d41132e6829952d105472c909909b') in 0.137152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0049.png
+  artifactKey: Guid(4dec4660663c4c249818d757a2ea8e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0049.png using Guid(4dec4660663c4c249818d757a2ea8e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7da79becb6d7714d6a8871a07ec10') in 0.146302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0060.png
+  artifactKey: Guid(59448f32a3b2561409de6f7a2b6a6cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0060.png using Guid(59448f32a3b2561409de6f7a2b6a6cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30d3b034c5e3631c9f8b4337744a544') in 0.142433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0058.png
+  artifactKey: Guid(4f4b1c3f3a5d74342af227c1801e21d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0058.png using Guid(4f4b1c3f3a5d74342af227c1801e21d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a948f2b03c7806c585faeb3fed0ab578') in 0.149471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0054.png
+  artifactKey: Guid(a7ca02bdf619bb54e932a28728c1b9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0054.png using Guid(a7ca02bdf619bb54e932a28728c1b9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3620ddcb6feb40a91e75eb58645358ac') in 0.142130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.953824 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0063.png
+  artifactKey: Guid(fd267b3a1ec3cff43bba4090da4862d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0063.png using Guid(fd267b3a1ec3cff43bba4090da4862d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f8a799da9a956192dac48bb5f7f3a5') in 0.169134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0066.png
+  artifactKey: Guid(f2ebef1452edb33499d40596268fafec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0066.png using Guid(f2ebef1452edb33499d40596268fafec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881fad4149028099b994688138e24ef3') in 0.161530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0069.png
+  artifactKey: Guid(928528f7e9ba84e41bd91cd3a6ce92b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0069.png using Guid(928528f7e9ba84e41bd91cd3a6ce92b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152505f4c20fca09c8d4b6fdcb83f20d') in 0.159037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084685 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0071.png
+  artifactKey: Guid(f43f5eefbde22444fb54fe08be9a7328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0071.png using Guid(f43f5eefbde22444fb54fe08be9a7328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b619d4ae98cbd0978f426f7dddc34e5') in 0.158421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0077.png
+  artifactKey: Guid(5ab7f5d6a13fabd4c9646d9138e9bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0077.png using Guid(5ab7f5d6a13fabd4c9646d9138e9bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec25e59e4080abe3757c24667af116a') in 0.163427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0073.png
+  artifactKey: Guid(66bb0157263661e4690d324d0c8eaa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0073.png using Guid(66bb0157263661e4690d324d0c8eaa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cba7ce0f5e9d74ab6f013626056610') in 0.172451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0079.png
+  artifactKey: Guid(dc1dc0af0122ab64ea9871a1bfc7fe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0079.png using Guid(dc1dc0af0122ab64ea9871a1bfc7fe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbc7bd236117f60f8b82af152e4e272') in 0.133982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.325239 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0038.png
+  artifactKey: Guid(ef5be6b5646640e4181d34f19b51aabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0038.png using Guid(ef5be6b5646640e4181d34f19b51aabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cca0c19d07a1fd4bc4779bdae8a3d8a') in 0.139733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0034.png
+  artifactKey: Guid(3c036aa0ac01aa64f88b6796e5809c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0034.png using Guid(3c036aa0ac01aa64f88b6796e5809c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fafe81aa78333d320bc1bdf0a401af') in 0.149257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0028.png
+  artifactKey: Guid(8285cbac7af944545a23e3d2ba5440d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0028.png using Guid(8285cbac7af944545a23e3d2ba5440d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7750c7ea561936759ce7460cddffeb8') in 0.139289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0029.png
+  artifactKey: Guid(367d7903bd026bb46af26af929c035ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0029.png using Guid(367d7903bd026bb46af26af929c035ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94030db48fb86e8886f9246e0b1a1f68') in 0.144072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0015.png
+  artifactKey: Guid(f65a12c987473dc4fae30d741c8ed875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0015.png using Guid(f65a12c987473dc4fae30d741c8ed875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a10bcf589622d8e4095ece5c0afc8e5') in 0.136910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0030.png
+  artifactKey: Guid(8d640d1aaf42ed746aa487f1493a82ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0030.png using Guid(8d640d1aaf42ed746aa487f1493a82ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fa3c48f912ed6422c56bbbad8bed6a') in 0.141034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0005.png
+  artifactKey: Guid(f7071d651bc93704d96fb5ef8b087f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0005.png using Guid(f7071d651bc93704d96fb5ef8b087f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca503e0bfc06a5401981c97fca7b33bb') in 0.140925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0013.png
+  artifactKey: Guid(d165ad7fb2038b347b0dce4d219ce8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0013.png using Guid(d165ad7fb2038b347b0dce4d219ce8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b345111e52946168199cacba4292e73') in 0.139373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0020.png
+  artifactKey: Guid(03894452da09ad9458ec77c3828e0324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0020.png using Guid(03894452da09ad9458ec77c3828e0324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ee2a4750fe4bd0ed74da20ccf6aaae') in 0.136196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0021.png
+  artifactKey: Guid(fb1f4c0347e60e748a3e2706b138e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0021.png using Guid(fb1f4c0347e60e748a3e2706b138e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5453c4b567ac15bb7ae2f57c3dcfb2a5') in 0.130927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0011.png
+  artifactKey: Guid(ddfc662b414aa9546a0899b61ddb5bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0011.png using Guid(ddfc662b414aa9546a0899b61ddb5bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a68bbf9dcdd81afb093b9edfa59236') in 0.134327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/P11/逆轉/逆轉0004.png
+  artifactKey: Guid(9b1b4ebcd89f7b9419fc34bc8f5405c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/P11/逆轉/逆轉0004.png using Guid(9b1b4ebcd89f7b9419fc34bc8f5405c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57caa4d02bbed200e3896ada3be57c4d') in 0.128050 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
